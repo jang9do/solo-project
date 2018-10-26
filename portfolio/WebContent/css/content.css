@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+#wrap #content{
+	margin-left: 290px;
+	width: calc(100% - 290px);
+	min-height: 850px;
+	padding-top: 50px;
+}
+#content table{
+	margin :0 auto;
+	background-color: white;
+	border: 1px solid black;
+}
+#content table caption{
+	font-size: 2em;
+	font-weight: bold;
+	padding: 30px;
+	text-align: left;
+}
+#content table tr td, #content table tr th{
+	text-align : center;
+	line-height: 30px;
+	background-color: #C3D8F5;
+	padding: 0 10px;	
+}
+#content table tr td{
+	width: 100px;
+}
+#content table tr th{
+	background-color: #717F9A;
+	width: 100px;
+	font-weight: bold;
+	color: white;
+}
+#content table td span{
+	font-size: 0.9em;
+	padding: 0 10px;
+}
+#content table td {
+	text-decoration: none;
+	box-sizing: border-box;
+	border-bottom: 1px solid #90B4E6;
+}
+#content table td a{
+	text-decoration: none;
+	color: blue;
+}
+#content table td input[type=submit], #content table td input[type=button], #content table td button{
+	background-color: lightblue;
+	color: black;
+	font-weight: bold;
+	height: 30px;
+}
+#wrap #content p{
+	line-height: 30px;
+	text-align: center;
+	color: red;
+	font-weight: bold;
+	margin: 10px;
+}
+#wrap #content p a{
+	text-decoration: none;
+	color: gray;
+	font-weight: bold;
+}
+#wrap #content p button{
+	background-color: lightblue;
+	color: white;
+	font-weight: bold;
+	height: 30px;
+}
+#wrap #content p select{
+	height: 28px;
+}
+#wrap #content p input{
+	height: 20px;
+}
+#content table tr .bTitle{
+	text-align: left;
+	width: 300px;
+}
+#content table tr .bTitle a{
+	text-decoration: none;
+	color: black;
+}
+#content table tr .bDate{
+	width: 150px;
+}
+#content table tr:last-child td {
+	border-bottom: none;
+}

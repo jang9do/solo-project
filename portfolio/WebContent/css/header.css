@@ -1,0 +1,129 @@
+@charset "UTF-8";
+	#wrap{
+		width: 100%;
+		margin: 0 auto;
+		min-height: 1000px;
+		position: relative;
+	}
+	header {
+		position: absolute;
+		width: 290px;	
+		height: 100%;
+		z-index: 2500;
+	}
+	header #headW {
+		width: 290px;
+		height: 100%;
+		background-color: #0A73A3;
+		top: 0;
+		left: 0;
+	}
+	header #headW #login{
+		margin: 10px auto;
+		width: 260px;
+		text-align: center;
+		border : 2px solid white;
+		overflow: hidden;
+		background-color: #3975A8;
+	}
+	header #headW #login table{
+		margin: 0 auto;
+		text-align: center;
+		text-decoration: none;
+	}
+	header #headW #login table td, header #login table th{
+		color: white;
+		line-height: 30px;
+		font-weight: bold;
+		width: 90px;
+	}
+	header #login table th{
+		text-align: left;
+	}
+	header #headW #login table td{
+		width: 130px;
+	}
+	header #headW #login table td a, header #login table th a{
+		color: lightblue;
+		text-decoration: none;
+		font-size: 0.8em;
+	}
+	header #headW #login table input{
+		width: 100%;
+		margin-top: 10px;
+	}
+	header #headW #login table input[type=submit]{
+		margin-top: 10px;
+		background-color: lightblue;
+		border: 1px solid blue;
+		color: blue;
+		font-weight: bold;
+	}
+	
+	header #headW ul{
+		list-style: none;
+		min-height: 200px;
+		margin-bottom: 20px;
+	}
+	header #headW ul li{
+		height: 50px;
+		width: 290px;
+	}
+	header #headW ul li a{
+		color: white;
+		font-weight: bold;
+		font-size: 1.3em;
+		text-decoration: none;
+		line-height: 50px;
+		text-align: right;
+		display: block;
+		padding-right: 20px;
+	}
+	header #headW li>ul{
+		display: none;
+		margin-left: 290px;
+		margin-top: -40px;
+		list-style: none;
+	}
+	header #headW li:hover>ul{
+		display: block;
+		background-color: lightgray;
+	}
+	header #headW li>ul li a{
+		text-align: right;
+		text-decoration: none;
+		color: #4874ba;
+		line-height: 40px;
+		width: 140px;
+		display: block;
+		font-size: 1.0em;
+	}
+	header #headW #newM{
+		font-size: 0.7em;
+	}
+	
+	header #call{
+		padding: 20px 0;
+		width: 100%;
+		height: 100px;
+		background-color: black;
+	}
+	header #call p{
+		margin-top: 10px;
+		text-align: center;
+		color: gold;
+		font-size: 1.5em;
+		font-weight: bold;
+	}
+	header #call img{
+		margin-left: 5px;
+		float: left;
+	}
+	header #call span{
+		color: white;
+		font-size: 1.3em;
+		font-weight: bold;
+		float: left;
+		display: inline-block;
+		line-height: 60px;
+	}

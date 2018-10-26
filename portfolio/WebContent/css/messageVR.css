@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+	#wrap table{
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+	#wrap table td, #wrap table th{
+		text-align: center;
+		border: 2px solid lightblue;
+		line-height: 25px;
+	}
+	#wrap table td{
+		width: 120px;
+	}
+	#wrap table td:nth-child(4){
+		width: 240px;
+	}
+	#wrap table th{
+		width: 90px;
+		background-color: #3378C1;
+		color: white;
+	}
+	#wrap table button{
+		background-color: #3378C1;
+		border: 1px solid lightblue;
+		width: 100px;
+		color: white;
+	}
+	#wrap table tr #content{
+		height: 200px;
+		text-align: left;
+	}

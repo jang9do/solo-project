@@ -1,0 +1,49 @@
+@charset "UTF-8";
+	#wrap p> span{
+		margin-top: 10px;
+		margin-left: 10px;
+		text-decoration: none;
+		line-height: 30px;
+		width: 180px;
+		text-align: center;
+		display: block;
+		border: 2px solid lightblue;
+		border-bottom: none;
+		color: gray;
+		font-size: 1.2em;
+		font-weight: bold;
+		border-radius: 20px 20px 0 0;
+		float: left;
+	}
+	#wrap p> a{
+		margin-top: 15px;
+		float: right;
+		text-decoration: none;
+		color: gray;
+		margin-right: 20px;
+	}
+	#wrap table{
+		margin-left: 10px;
+	}
+	#wrap table td, #wrap table th{
+		border: 2px solid lightblue;
+		line-height: 25px;
+	}
+	#wrap table input{
+		width: -webkit-calc(100% - 4px);
+		height: 25px;
+	}
+	#wrap table input[type=submit]{
+		background-color: #3378C1;
+		border: 1px solid blue;
+		width: 100%;
+		color: white;
+	}
+	#wrap table td{
+		width: 120px;
+	}
+	#wrap table th{
+		width: 90px;
+		background-color: #3378C1;
+		color: white;
+	}

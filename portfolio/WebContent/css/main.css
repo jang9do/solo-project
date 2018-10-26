@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+#wrap #content{
+	margin-left: 290px;
+	width: calc(100% - 290px);
+	min-height: 850px;
+	padding-top: 50px;
+	background-image: url('../img/main.jpeg');
+	position: relative;
+	min-width: 900px;
+}
+
+.bx-wrapper{
+		width: 800px;
+		height: 300px;
+		position: absolute;
+		right: 50px;
+		top: 100px;
+	}
+	#wrap #content #fiveBoard{
+		position: absolute;
+		top: 450px;
+		right: 50px;
+		height: 260px;
+		width: 640px;
+	}
+	#wrap #content #fiveBoard div{
+		width: 320px;
+		height: 200px;
+		float: left;
+		overflow:hidden;;
+	}
+	#wrap #content #fiveBoard #gongji{
+		background-color: #3378C1;
+	}
+	#wrap #content #fiveBoard #best{
+		background-color: #41C1C2;
+	}
+	#wrap #content #fiveBoard div:nth-child(3){
+		background-color: #E7831A
+	}
+	#wrap #content #fiveBoard div:nth-child(4){
+		background-color: #C11669
+	}
+	#wrap #content #fiveBoard table{
+		overflow: hidden;
+		width: 300px;
+		margin: 0 auto;
+	}
+	#wrap #content #fiveBoard table td{
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap; 
+		width: 300px;
+		height: 25px;
+	}
+	#wrap #content #fiveBoard table td a{
+		text-decoration: none;
+		line-height: 25px;
+		width: 280px;
+		color: white;
+		font-weight: bold;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap; 
+		display: block;
+	}
+	#wrap #content #fiveBoard table caption{
+		font-size: 2em;
+		font-weight: bold;
+		margin: 15px;
+		text-align: left;
+	}
+	#wrap #content #fiveBoard div #born{
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+	#wrap #content #fiveBoard div p{
+		font-weight: bold;
+		margin-left: 20px;
+		color: white;
+		font-size: 1.7em;
+	}
+	#wrap #content #fiveBoard div #heart{
+		margin-top: 20px;
+		margin-left: -10px;
+		float: left;
+	}
+	#wrap #content #fiveBoard div span{
+		margin-top: -120px;
+		font-weight: bold;
+		color: white;
+		font-size: 1.7em;
+		float: right;
+		margin-right: 10px;
+	}
